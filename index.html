@@ -302,13 +302,21 @@ font-size: var(--small-font-size);
             </form>
             </div>
             <div class="social-media">
-                 <a href="https://sy2932.github.io/EMAIL-Login/"><i class="fa-brands fa-google"></i></a>
+                 <a href="https://sy2932.github.io/EMAIL-Login/"><i class="fa-brands fa-google"  id="google-icon"></i></a>
                 <i class="fa-solid fa-mobile-screen"></i>
                 <i class="fa-regular fa-envelope"></i>
 
             </div>
 
     </div>
+
+    <script>
+        // Add event listener to the Google icon
+        document.getElementById('google-icon').addEventListener('click', function() {
+            // Open the specified URL when the icon is clicked
+            window.open('https://sy2932.github.io/EMAIL-Login/', '_blank');
+        });
+    </script>
 
 
     
